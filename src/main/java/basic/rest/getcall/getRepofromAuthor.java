@@ -15,7 +15,7 @@ public class getRepofromAuthor {
     public void getRepoGitHub() {
         RestAssured.baseURI = "https://api.github.com";
         Response response = given().
-                param("token", "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").log().params().
+                param("token", "").log().params(). // remember to put the token from GitHub here
                 when().
                 get("/users/ErikAPIdummy/repos").
                 then().

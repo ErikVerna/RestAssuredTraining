@@ -12,7 +12,7 @@ public class extractRequestResponse {
     @Test
     public void extractResponse() {
         RestAssured.baseURI = "https://api.github.com";
-        String bearerToken = "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";
+        String bearerToken = ""; // token from GitHub goes here.
 
         String requestBody = "{\"name\":\"Api-testing-restcall-4\",\n" +
                 "\"description\":\"Repository created via Rest Assured Call\",\n" +

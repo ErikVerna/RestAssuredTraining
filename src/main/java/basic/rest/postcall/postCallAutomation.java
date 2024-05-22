@@ -14,8 +14,8 @@ public class postCallAutomation {
         System.out.println(board_name);
 
         given().
-                queryParam("key", "e82bbe4b751afbe94c23e21ae91197f6").
-                queryParam("token", "ATTA14155fb8bc911d717542b55c5c5a02c8ce72bc8ee1a51f143d8f4ccf3c1474a28A71F7C3").
+                queryParam("key", ""). // key from atlassian goes here.
+                queryParam("token", ""). // token from atlassian goes here.
                 queryParam("name", board_name).
                 header("Content-Type", "application/json").
                 when().

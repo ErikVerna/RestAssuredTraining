@@ -13,8 +13,8 @@ public class getMethodAutomation {
         RestAssured.baseURI = baseUri;
 
         given().
-                param("key", "e82bbe4b751afbe94c23e21ae91197f6").
-                param("token","ATTA14155fb8bc911d717542b55c5c5a02c8ce72bc8ee1a51f143d8f4ccf3c1474a28A71F7C3").
+                param("key", ""). //the key goes here
+                param("token",""). // the token goes here
                 when().
                 get("/1/boards/L4ope4IX").
                 then().
